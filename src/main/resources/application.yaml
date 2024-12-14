@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: kafka-admin
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+server:
+  port: 3001
+
+kafka:
+  admin:
+    servers: localhost:9092
